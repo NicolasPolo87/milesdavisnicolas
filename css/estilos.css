@@ -117,15 +117,6 @@ footer {
     height: 300px;
 }
 
-.listasDiscos{
-    background-color: rgba(184, 135, 11, 0.623);
-    padding: 30px; 
-    margin: 20px;
-    border: 10px solid rgba(2, 95, 2, 0.575);
-    width: fit-content;
-    height: fit-content;
-}
-
 .menu__inline{
     background-color:rgb(85, 53, 170);
     font-weight: bold;
@@ -133,4 +124,144 @@ footer {
     margin: 10px;
     border-style: double;
 
+}
+
+html {
+    box-sizing: border-box;
+}
+
+  *, 
+  *:before, 
+  *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #6e04c4;
+}
+
+.grid__container {
+    padding: 12px;
+}
+
+.image-row {
+    display: flex;  
+}
+
+.image-row .image {
+    margin: 12px;
+    height: 240px;  
+}
+
+.image { 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3), 
+                0 6px 20px rgba(0, 0, 0, 0.15),
+                0 6px 20px rgba(0, 0, 0, 0.7);
+}
+
+.imagen-01 {
+    background-image: url(../recursos/54689035-kuvD-U100961267398MKI-624x385@Diario\ Vasco.jpg); 
+    flex: 1;  
+}
+
+.imagen-02 {
+    background-image: url(../recursos/images.jpg); 
+    flex: 1;  
+}
+
+.imagen-03 {
+    background-image: url(../recursos/images\ \(1\).jpg);  
+    flex: 2;  
+}
+
+.imagen-04 {
+    background-image: url(../recursos/miles-davis-20210927-1236138.jpg); 
+    flex: 1;
+}
+
+.imagen-05 {
+    background-image: url(../recursos/MIles-Davis-Bitches-Brew.webp);
+    flex: 2;
+}
+
+.imagen-06 {
+    background-image: url(../recursos/miles-davis-fue-dueno-de___1jdBeRDH_1256x620__2.webp);  
+    flex: 2;
+}
+
+.imagen-07 {
+    background-image: url(../recursos/miles-davis-musica-jazz-kind-of-blue.webp); 
+    flex: 1;
+}
+
+.imagen-08 {
+    background-image: url(../recursos/miles-davis-web.jpg);  
+    flex: 3;
+}
+
+.imagen-09 {
+    background-image: url(../recursos/miles_davis.jpg);  
+    flex: 1;
+}
+
+.imagen-10 {
+    background-image: url(../recursos/Miles_Davis_by_Palumbo.jpg); 
+    flex: 1;
+}
+
+.imagen-11 {
+    background-image: url(../recursos/tumblr_lzk8mmfvUj1qcx3szo1_1280.webp); 
+    flex: 1;
+}
+
+.imagen-12 {
+    background-image: url(../recursos/web-miles-davis-BERTRAND-GUAY-AFP.jpg); 
+    flex: 1;
+}
+
+@media screen and (max-width: 400px) {
+    .image-row {
+    flex-direction: column;
+    }
+    
+    .image-row .image {
+    flex-basis: auto;
+    }
+}
+
+.album__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 15px;
+    margin: 20px;
+}
+
+.album {
+    background: rgba(72, 61, 139, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 15px;
+    align-items: center;
+    color: black;
+    font-weight: 200;
+}
+
+.album__tapa {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.album__artista {
+    margin-bottom: 5px;
+}
+
+.lista__disco {
+    margin: 10px;
+    padding: 5px;
 }
