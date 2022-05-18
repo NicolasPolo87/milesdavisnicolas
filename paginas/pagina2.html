@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../recursos/favicon-16x16.png">
-    <link rel="stylesheet" href="../css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CCS -->
+    <link rel="stylesheet" href="css/estilos.css">
     <title>MD - Galeria</title>
 </head>
 <body>
@@ -25,32 +28,51 @@
             <li class="menu__inline"><a href="pagina4.html">CONTACTO</a></li>
         </ul>
         <h2>Galeria de imagenes</h2>
-        <section>
-            <div class="grid__container">
-                <div class="image-row">
-                    <div class="image imagen-01"></div>  
-                    <div class="image imagen-02"></div>  
-                    <div class="image imagen-03"></div>  
-                </div> 
-                <div class="image-row">
-                    <div class="image imagen-04"></div>  
-                    <div class="image imagen-05"></div>  
-                </div>  
-                <div class="image-row">
-                    <div class="image imagen-06"></div>  
-                    <div class="image imagen-07"></div>  
-                    <div class="image imagen-08"></div>  
-                    <div class="image imagen-09"></div>  
-                </div>  
-                <div class="image-row">
-                    <div class="image imagen-10"></div>  
-                    <div class="image imagen-11"></div>  
-                    <div class="image imagen-12"></div>  
-                </div> 
-            </div>  
+        <section class="container">
+                <article class="row align-items-center">
+                    <div class="col-xl-3 col-sm-6">
+                        <img class="img-fluid rounded mx-auto d-block p-1 shadow-lg bg-dark border" src="../recursos/images (1).jpg">
+                    </div>
+                    <div class="col-xl-3 col-sm-6">
+                        <img class="img-fluid rounded mx-auto d-block p-1 shadow-lg bg-dark border" src="../recursos/images.jpg">
+                    </div>
+                    <div class="col-xl-3 col-sm-6">
+                        <img class="img-fluid rounded mx-auto d-block p-1 shadow-lg bg-dark border" src="../recursos/miles-davis-20210927-1236138.jpg">
+                    </div>
+                    <div class="col-xl-3 col-sm-6">
+                        <img class="img-fluid rounded mx-auto d-block p-1 shadow-lg bg-dark border" src="../recursos/MIles-Davis-Bitches-Brew.webp">
+                    </div>
+                </article>
+                <article class="row align-items-center">
+                    <div class="col-xl-3 col-sm-6">
+                        <img class="img-fluid rounded mx-auto d-block p-1 shadow-lg bg-dark border" src="../recursos/miles-davis-fue-dueno-de___1jdBeRDH_1256x620__2.webp">
+                    </div>
+                    <div class="col-xl-3 col-sm-6">
+                        <img class="img-fluid rounded mx-auto d-block p-1 shadow-lg bg-dark border" src="../recursos/miles-davis-musica-jazz-kind-of-blue.webp">
+                    </div>
+                    <div class="col-xl-3 col-sm-6">
+                        <img class="img-fluid rounded mx-auto d-block p-1 shadow-lg bg-dark border" src="../recursos/miles-davis-web.jpg">
+                    </div>
+                    <div class="col-xl-3 col-sm-6">
+                        <img class="img-fluid rounded mx-auto d-block p-1 shadow-lg bg-dark border" src="../recursos/miles_davis.jpg">
+                    </div>
+                </article>
+                <article class="row align-items-center">
+                    <div class="col-xl-3 col-sm-6">
+                        <img class="img-fluid rounded mx-auto d-block p-1 shadow-lg bg-dark border" src="../recursos/Miles_Davis_by_Palumbo.jpg">
+                    </div>
+                    <div class="col-xl-3 col-sm-6">
+                        <img class="img-fluid rounded mx-auto d-block p-1 shadow-lg bg-dark border" src="../recursos/60ade945b3e41.jpeg">
+                    </div>
+                    <div class="col-xl-3 col-sm-6">
+                        <img class="img-fluid rounded mx-auto d-block p-1 shadow-lg bg-dark border" src="../recursos/images 41.jpg">
+                    </div>
+                    <div class="col-xl-3 col-sm-6">
+                        <img class="img-fluid rounded mx-auto d-block p-1 shadow-lg bg-dark border" src="../recursos/R9f0e0ce8ffb8e638a289c87fcdc066ab.webp">
+                    </div>
+                </article> 
         </section>
     </header>
-</body>
 
 <footer>
     <span>
@@ -67,4 +89,7 @@
     </span>
     <span> - TODOS LOS DERECHOS RESERVADOS</span>
 </footer>
+<!-- SCRIPT BOOTSTRAP -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
 </html>
