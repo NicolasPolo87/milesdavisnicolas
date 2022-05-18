@@ -265,3 +265,11 @@ body {
     margin: 10px;
     padding: 5px;
 }
+
+.gradiente-historia1{
+    background-image: linear-gradient(to top, rgb(126, 89, 228), rgb(33, 196, 120));
+}
+
+.gradiente-historia2{
+    background-image: linear-gradient(to top, rgba(33, 196, 120), rgb(126, 89, 228));
+}
