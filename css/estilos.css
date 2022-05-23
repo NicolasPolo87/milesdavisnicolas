@@ -106,7 +106,14 @@ footer {
 .redes{
     display: inline;
     text-align: center;
+    width: 45px;
+    height: 45px;
 }
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}  
 
 .fotosGaleria{
     background-color: rgba(0, 0, 0, 0.233);
