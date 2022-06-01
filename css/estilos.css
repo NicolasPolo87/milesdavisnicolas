@@ -160,7 +160,7 @@ body {
 
 .imagen-05 {
   background-image: url(../recursos/MIles-Davis-Bitches-Brew.webp);
-  flex: 2; }
+  flex: 1; }
 
 .imagen-06 {
   background-image: url(../recursos/miles-davis-fue-dueno-de___1jdBeRDH_1256x620__2.webp);
@@ -236,3 +236,15 @@ body {
 
 .gradiente-historia2 {
   background-image: linear-gradient(to top, #21c478, #7e59e4); }
+
+.key1-card {
+  background-image: url(../recursos/SAS/rata.jpg);
+  flex: 1; }
+
+.key2-card {
+  background-image: url(../recursos/SAS/gato.jpg);
+  flex: 1; }
+
+.kay3-card {
+  background-image: url(../recursos/SAS/perro.jpg);
+  flex: 1; }
